@@ -7,7 +7,7 @@ This script collection activates automatic extraction of finished packages or fi
 Single files in a package will be moved or moved+extracted by using tags in PackageName at the pyload webgui. 
 (useful for single archive files in the same package like: artist-album1.zip artist-album2.zip etc)
 
-If no tag is prrsent in the psckage name  the script will move and extract the whole package at once. 
+If no tag is present in the psckage name  the script will move and extract the whole package at once when finished downloading all files in the package 
 (useful for multiple/splitted archives like: file.part1.rar file.part2.rar)
 
 The script will extract rar, zip, gzip, 7z and tar archives if the needed binarys are installed on system.
@@ -15,12 +15,13 @@ The script will extract rar, zip, gzip, 7z and tar archives if the needed binary
 
 
 INSTALLATION
-- perform a github pull request download zip package.
-- after pulling/extracting cd to folder
-- edit "pyload-tools-config.cfg" with your favourite editor and save when done
-- run "chmod a+x install.sh"
-- run "./install.sh"
+- perform a pull request or download the zip package.
+- after pulling/extracting cd to folder "pyload-extractor"
+- edit "pyload-tools-config.cfg" with the correct folders by your system
+- as root run "chmod a+x install.sh"
+- as root run "./install.sh"
 - logout and login again (all sessions needs to relogin to reload envVars)
 - restart all pyload instances
-- view log at the Logs Page on the pyload-webgui
+- activate the plugin "ExternalScripts" at the pyload-webgui
+- view log at the Logs Page at the pyload-webgui
 
