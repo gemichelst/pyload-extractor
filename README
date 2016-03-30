@@ -1,12 +1,17 @@
-pyLoad Extractor Plugin
+pyLoad Extractor Scripts
 Version 0.5 - build 290320016
 coded by gemichelst (http://github.com/gemichelst/pylpad-extractor
 
-This script collection activates automatic extraction of finished packages in pyLoad.
-Also it possible to move extract or move finished files when they are downloaded.
+This script collection activates automatic extraction of finished packages or finished files in pyLoad.
 
-If binarys are installed the script will extract rar, zip, gzip, 7z and tar.
-Multiple archives are supported. (part01.rar etc)
+Single files in a package will be moved or moved+extracted by using tags in PackageName at the pyload webgui. 
+(useful for single archive files in the same package like: artist-album1.zip artist-album2.zip etc)
+
+If no tag is prrsent in the psckage name  the script will move and extract the whole package at once. 
+(useful for multiple/splitted archives like: file.part1.rar file.part2.rar)
+
+The script will extract rar, zip, gzip, 7z and tar archives if the needed binarys are installed on system.
+
 
 
 INSTALLATION
@@ -15,5 +20,7 @@ INSTALLATION
 - edit "pyload-tools-config.cfg" with your favourite editor and save when done
 - run "chmod a+x install.sh"
 - run "./install.sh"
+- logout and login again (all sessions needs to relogin to reload envVars)
+- restart all pyload instances
+- view log at the Logs Page on the pyload-webgui
 
-When the script has finished you need relogin into shell to reload and enable env vars.
