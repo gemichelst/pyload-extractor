@@ -1,24 +1,22 @@
 pyLoad Extractor Scripts
 Version 0.5 - build 290320016
-coded by gemichelst (http://github.com/gemichelst/pylpad-extractor
+coded by gemichelst (https://github.com/gemichelst/pyload-extractor)
 
 This script collection activates automatic extraction of finished packages or finished files in pyLoad.
 
-Single files in a package will be moved or moved+extracted by using tags in PackageName at the pyload webgui. 
+Single files in a package will be moved or moved+extracted by using tags in packagename at the pyload webgui. 
 (useful for single archive files in the same package like: artist-album1.zip artist-album2.zip etc)
 
 [tags]
 MVfile_  = will move every file to specified folder when finished download
-MVEXfile = will and extract file to speciefied folder when finished download
-MVpkg = not yet implemented
-MVEXpkg = not yet implenented
+MVEXfile_ = will and extract file to speciefied folder when finished download
+MVpkg_ = not yet implemented
+MVEXpkg_ = no need to set this tag
 
-If no tag is present in the psckage name  the script will move and extract the whole package at once when finished downloading all files in the package 
+If no tag is present in the package name  the script will move and extract the whole package at once when finished downloading all files in the package 
 (useful for multiple/splitted archives like: file.part1.rar file.part2.rar)
 
 The script will extract rar, zip, gzip, 7z and tar archives if the needed binarys are installed on system.
-
-
 
 INSTALLATION
 - perform a pull request or download the zip package.
