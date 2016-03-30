@@ -5,11 +5,12 @@ coded by gemichelst (http://github.com/gemichelst/pylpad-extractor
 This script collection activates automatic extraction of finished packages in pyLoad.
 Also it possible to move extract or move finished files when they are downloaded.
 
-If binarys are installed the script will extract rar, zip, gzip, 7z and tar -
+If binarys are installed the script will extract rar, zip, gzip, 7z and tar.
 Multiple archives are supported. (part01.rar etc)
 
+
 INSTALLATION
-- copy files to your machine while perform a github pull request or by downloading zip package.
+- perform a github pull request download zip package.
 - after pulling/extracting cd to folder
 - edit "pyload-tools-config.cfg" with your favourite editor and save when done
 - run "chmod a+x install.sh"
