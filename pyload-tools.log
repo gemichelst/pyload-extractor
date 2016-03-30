@@ -1,0 +1,748 @@
+26.03.2016 01:12:47: start of pyload-extractor
+26.03.2016 01:12:47: finished package: bla
+26.03.2016 01:12:47: package name: bla
+26.03.2016 01:12:47: package location: download-tmp/bla
+26.03.2016 01:12:47: found [movefiles] in package: bla - exiting
+26.03.2016 01:16:46: start of pyload-extractor
+26.03.2016 01:16:46: finished package: bla
+26.03.2016 01:16:46: package name: bla
+26.03.2016 01:16:46: package location: download-tmp/bla
+26.03.2016 01:16:46: found [movefiles] in package: bla - exiting
+26.03.2016 01:31:16: start of pyload-extractor
+26.03.2016 01:31:16: finished package: bla
+26.03.2016 01:31:16: package name: bla
+26.03.2016 01:31:16: package location: download-tmp/bla
+26.03.2016 01:31:16: found [movefiles] in package: bla - exiting
+26.03.2016 01:33:00: start of pyload-extractor
+26.03.2016 01:33:00: finished package: bla
+26.03.2016 01:33:00: package name: bla
+26.03.2016 01:33:00: package location: download-tmp/bla
+26.03.2016 01:33:00: found [movefiles] in package: bla - exiting
+26.03.2016 01:43:24: start of pyload-extractor
+26.03.2016 01:43:24: finished package: bla
+26.03.2016 01:43:24: package name: bla
+26.03.2016 01:43:24: package location: download-tmp/bla
+26.03.2016 01:43:24: found [movefiles] in package: bla - exiting
+26.03.2016 01:47:03: start of pyload-extractor
+26.03.2016 01:47:03: finished package: bla
+26.03.2016 01:47:03: package name: bla
+26.03.2016 01:47:03: package location: download-tmp/bla
+26.03.2016 01:47:03: found [movefiles] in package: bla - exiting
+26.03.2016 01:59:20: start of pyload-extractor
+26.03.2016 01:59:20: finished package: bla
+26.03.2016 01:59:20: package name: bla
+26.03.2016 01:59:20: package location: download-tmp/bla
+26.03.2016 01:59:20: no tags found in package: bla
+26.03.2016 01:59:20: package full: /media/stick/pyload/download-tmp/bla
+26.03.2016 01:59:20: destination: /media/stick/downloads
+26.03.2016 01:59:20: finished copying package folder - deleting downloaded files
+26.03.2016 01:59:20: searching for rar-files
+26.03.2016 01:59:20: found rar-file: /media/stick/downloads/bla/bla.rar
+26.03.2016 01:59:20: extracting files
+26.03.2016 01:59:20: deleting rar-files
+26.03.2016 01:59:20: sending pushbullet notice
+________________________________________________
+26.03.2016 02:01:27: start of pyload-extractor
+26.03.2016 02:01:27: finished package: MV_bla2
+26.03.2016 02:01:27: package name: MV_bla2
+26.03.2016 02:01:27: package location: download-tmp/bla2
+26.03.2016 02:01:27: found [movefiles] in package: MV_bla2 - exiting
+26.03.2016 02:05:29: start of pyload-extractor
+26.03.2016 02:05:29: finished package: MV_bla2
+26.03.2016 02:05:29: package name: MV_bla2
+26.03.2016 02:05:29: package location: download-tmp/bla2
+26.03.2016 02:05:29: found tag MV_ in package: MV_bla2 - exiting
+26.03.2016 02:06:07: start of pyload-extractor
+26.03.2016 02:06:07: finished package: bla2
+26.03.2016 02:06:07: package name: bla2
+26.03.2016 02:06:07: package location: download-tmp/bla2
+26.03.2016 02:06:07: no tags found in package: bla2
+26.03.2016 02:06:07: package full: /media/stick/pyload/download-tmp/bla2
+26.03.2016 02:06:07: destination: /media/stick/downloads
+26.03.2016 02:06:07: finished copying package folder - deleting downloaded files
+26.03.2016 02:06:07: searching for rar-files
+26.03.2016 02:06:07: found rar-file: /media/stick/downloads/bla2/bla2.rar
+26.03.2016 02:06:07: extracting files
+26.03.2016 02:06:07: deleting rar-files
+26.03.2016 02:06:07: sending pushbullet notice
+________________________________________________
+26.03.2016 02:20:59: start of pyload-action-handler
+26.03.2016 02:20:59: finished file: /media/stick/pyload/download-tmp/multi2/multi.part1.rar
+26.03.2016 02:20:59: package name: multi.part1.rar
+26.03.2016 02:20:59: no tags found in package:  - exiting
+26.03.2016 02:21:16: start of pyload-action-handler
+26.03.2016 02:21:16: finished file: /media/stick/pyload/download-tmp/multi2/multi.part3.rar
+26.03.2016 02:21:16: package name: multi.part3.rar
+26.03.2016 02:21:16: no tags found in package:  - exiting
+26.03.2016 02:21:26: start of pyload-action-handler
+26.03.2016 02:21:26: finished file: /media/stick/pyload/download-tmp/multi2/multi.part4.rar
+26.03.2016 02:21:26: package name: multi.part4.rar
+26.03.2016 02:21:26: no tags found in package:  - exiting
+26.03.2016 02:21:30: start of pyload-action-handler
+26.03.2016 02:21:30: finished file: /media/stick/pyload/download-tmp/multi2/multi.part5.rar
+26.03.2016 02:21:30: package name: multi.part5.rar
+26.03.2016 02:21:30: no tags found in package:  - exiting
+26.03.2016 02:21:34: start of pyload-action-handler
+26.03.2016 02:21:34: finished file: /media/stick/pyload/download-tmp/MV_bla1/bla1.rar
+26.03.2016 02:21:34: package name: bla1.rar
+26.03.2016 02:21:34: no tags found in package:  - exiting
+26.03.2016 02:21:37: start of pyload-action-handler
+26.03.2016 02:21:37: finished file: /media/stick/pyload/download-tmp/MV_bla1/bla2.rar
+26.03.2016 02:21:37: package name: bla2.rar
+26.03.2016 02:21:37: no tags found in package:  - exiting
+26.03.2016 02:21:37: start of pyload-extractor
+26.03.2016 02:21:37: finished package: MV_bla1
+26.03.2016 02:21:37: package name: MV_bla1
+26.03.2016 02:21:37: package location: /media/stick/pyload/download-tmp/MV_bla1
+26.03.2016 02:21:37: found tag MV_ in package: MV_bla1 - exiting
+26.03.2016 02:21:42: start of pyload-action-handler
+26.03.2016 02:21:42: finished file: /media/stick/pyload/download-tmp/bla2/bla1.rar
+26.03.2016 02:21:42: package name: bla1.rar
+26.03.2016 02:21:42: no tags found in package:  - exiting
+26.03.2016 02:21:44: start of pyload-action-handler
+26.03.2016 02:21:44: finished file: /media/stick/pyload/download-tmp/bla2/bla2.rar
+26.03.2016 02:21:44: package name: bla2.rar
+26.03.2016 02:21:44: no tags found in package:  - exiting
+26.03.2016 02:21:44: start of pyload-extractor
+26.03.2016 02:21:44: finished package: bla2
+26.03.2016 02:21:44: package name: bla2
+26.03.2016 02:21:44: package location: /media/stick/pyload/download-tmp/bla2
+26.03.2016 02:21:44: no tags found in package: bla2
+26.03.2016 02:21:44: package full: /media/stick/pyload/download-tmp/bla2
+26.03.2016 02:21:44: destination: /media/stick/downloads
+26.03.2016 02:21:44: finished copying package folder - deleting downloaded files
+26.03.2016 02:21:44: searching for rar-files
+26.03.2016 02:21:44: found rar-file: /media/stick/downloads/bla2/bla2.rar
+/media/stick/downloads/bla2/bla1.rar
+26.03.2016 02:21:44: extracting files
+26.03.2016 02:21:44: error while extracting - no files were deleted
+26.03.2016 02:22:02: start of pyload-action-handler
+26.03.2016 02:22:02: finished file: /media/stick/pyload/download-tmp/MV_multi1/multi.part1.rar
+26.03.2016 02:22:02: package name: multi.part1.rar
+26.03.2016 02:22:02: no tags found in package:  - exiting
+26.03.2016 02:22:03: start of pyload-action-handler
+26.03.2016 02:22:03: finished file: /media/stick/pyload/download-tmp/multi2/multi.part2.rar
+26.03.2016 02:22:03: package name: multi.part2.rar
+26.03.2016 02:22:03: no tags found in package:  - exiting
+26.03.2016 02:22:04: start of pyload-extractor
+26.03.2016 02:22:04: finished package: multi2
+26.03.2016 02:22:04: package name: multi2
+26.03.2016 02:22:04: package location: /media/stick/pyload/download-tmp/multi2
+26.03.2016 02:22:04: no tags found in package: multi2
+26.03.2016 02:22:04: package full: /media/stick/pyload/download-tmp/multi2
+26.03.2016 02:22:04: destination: /media/stick/downloads
+26.03.2016 02:22:04: finished copying package folder - deleting downloaded files
+26.03.2016 02:22:04: searching for rar-files
+26.03.2016 02:22:04: found rar-file: /media/stick/downloads/multi2/multi.part1.rar
+26.03.2016 02:22:04: extracting files
+26.03.2016 02:22:04: deleting rar-files
+26.03.2016 02:22:04: sending pushbullet notice
+________________________________________________
+26.03.2016 02:23:03: start of pyload-action-handler
+26.03.2016 02:23:03: finished file: /media/stick/pyload/download-tmp/MV_multi1/multi.part3.rar
+26.03.2016 02:23:03: package name: multi.part3.rar
+26.03.2016 02:23:03: no tags found in package:  - exiting
+26.03.2016 02:23:11: start of pyload-action-handler
+26.03.2016 02:23:11: finished file: /media/stick/pyload/download-tmp/MV_multi1/multi.part2.rar
+26.03.2016 02:23:11: package name: multi.part2.rar
+26.03.2016 02:23:11: no tags found in package:  - exiting
+26.03.2016 02:23:17: start of pyload-action-handler
+26.03.2016 02:23:17: finished file: /media/stick/pyload/download-tmp/MV_multi1/multi.part4.rar
+26.03.2016 02:23:17: package name: multi.part4.rar
+26.03.2016 02:23:17: no tags found in package:  - exiting
+26.03.2016 02:23:37: start of pyload-action-handler
+26.03.2016 02:23:37: finished file: /media/stick/pyload/download-tmp/MV_multi1/multi.part5.rar
+26.03.2016 02:23:37: package name: multi.part5.rar
+26.03.2016 02:23:37: no tags found in package:  - exiting
+26.03.2016 02:23:37: start of pyload-extractor
+26.03.2016 02:23:37: finished package: MV_multi1
+26.03.2016 02:23:37: package name: MV_multi1
+26.03.2016 02:23:37: package location: /media/stick/pyload/download-tmp/MV_multi1
+26.03.2016 02:23:37: found tag MV_ in package: MV_multi1 - exiting
+26.03.2016 02:39:38: start of pyload-action-handler
+26.03.2016 02:39:38: finished file: /media/stick/pyload/download-tmp/MV_multi1/multi.part1.rar
+26.03.2016 02:39:38: package name: multi.part1.rar
+26.03.2016 02:39:38: no tags found in package:  - exiting
+26.03.2016 02:39:49: start of pyload-action-handler
+26.03.2016 02:39:49: finished file: /media/stick/pyload/download-tmp/MV_multi1/multi.part3.rar
+26.03.2016 02:39:49: package name: multi.part3.rar
+26.03.2016 02:39:49: no tags found in package:  - exiting
+26.03.2016 02:40:05: start of pyload-action-handler
+26.03.2016 02:40:05: finished file: /media/stick/pyload/download-tmp/MV_multi1/multi.part4.rar
+26.03.2016 02:40:05: package name: multi.part4.rar
+26.03.2016 02:40:05: no tags found in package:  - exiting
+26.03.2016 02:40:08: start of pyload-action-handler
+26.03.2016 02:40:08: finished file: /media/stick/pyload/download-tmp/MV_multi1/multi.part5.rar
+26.03.2016 02:40:08: package name: multi.part5.rar
+26.03.2016 02:40:08: no tags found in package:  - exiting
+26.03.2016 02:42:04: start of pyload-action-handler
+26.03.2016 02:42:04: finished file: /media/stick/pyload/download-tmp/MV_multi1/multi.part2.rar
+26.03.2016 02:42:04: package name: multi.part2.rar
+26.03.2016 02:42:04: no tags found in package:  - exiting
+26.03.2016 02:42:05: start of pyload-extractor
+26.03.2016 02:42:05: finished package: MV_multi1
+26.03.2016 02:42:05: package name: MV_multi1
+26.03.2016 02:42:05: package location: /media/stick/pyload/download-tmp/MV_multi1
+26.03.2016 02:42:05: found tag MV_ in package: MV_multi1 - exiting
+26.03.2016 03:01:43: start of pyload-action-handler
+26.03.2016 03:01:43: finished file: multi.part1.rar
+26.03.2016 03:01:43: found package 
+26.03.2016 03:01:43: no tags found in package:  - exiting
+26.03.2016 03:01:52: start of pyload-action-handler
+26.03.2016 03:01:52: finished file: multi.part2.rar
+26.03.2016 03:01:52: found package 
+26.03.2016 03:01:52: no tags found in package:  - exiting
+26.03.2016 03:02:00: start of pyload-action-handler
+26.03.2016 03:02:00: finished file: multi.part3.rar
+26.03.2016 03:02:00: found package 
+26.03.2016 03:02:00: no tags found in package:  - exiting
+26.03.2016 03:02:05: start of pyload-action-handler
+26.03.2016 03:02:05: finished file: multi.part4.rar
+26.03.2016 03:02:05: found package 
+26.03.2016 03:02:05: no tags found in package:  - exiting
+26.03.2016 03:02:07: start of pyload-action-handler
+26.03.2016 03:02:07: finished file: multi.part5.rar
+26.03.2016 03:02:07: found package 
+26.03.2016 03:02:07: no tags found in package:  - exiting
+26.03.2016 03:02:07: start of pyload-extractor
+26.03.2016 03:02:07: finished package: MV_multi1
+26.03.2016 03:02:07: package name: MV_multi1
+26.03.2016 03:02:07: package location: /media/stick/pyload/download-tmp/MV_multi1
+26.03.2016 03:02:07: found tag MV_ in package: MV_multi1 - exiting
+26.03.2016 03:37:23: start of pyload-action-handler
+26.03.2016 03:37:23: finished file: multi.part1.rar
+26.03.2016 03:37:23: try to get packageName with pid 223
+26.03.2016 03:37:23: found package MV_multi1
+26.03.2016 03:37:23: found tag MV_ in package: MV_multi1
+26.03.2016 03:37:23: full path: /media/stick/pyload/download-tmp/MV_multi1/multi.part1.rar
+26.03.2016 03:37:23: destination: /mnt/storNAS/storage1/DOWNLOAD-TMP
+26.03.2016 03:37:23: finished moving multi.part1.rar to nas
+________________________________________________
+26.03.2016 03:37:36: start of pyload-action-handler
+26.03.2016 03:37:36: finished file: multi.part2.rar
+26.03.2016 03:37:36: try to get packageName with pid 224
+26.03.2016 03:37:36: found package MV_multi1
+26.03.2016 03:37:36: found tag MV_ in package: MV_multi1
+26.03.2016 03:37:36: full path: /media/stick/pyload/download-tmp/MV_multi1/multi.part2.rar
+26.03.2016 03:37:36: destination: /mnt/storNAS/storage1/DOWNLOAD-TMP
+26.03.2016 03:37:36: finished moving multi.part2.rar to nas
+________________________________________________
+26.03.2016 03:37:59: start of pyload-action-handler
+26.03.2016 03:37:59: finished file: multi.part3.rar
+26.03.2016 03:37:59: try to get packageName with pid 225
+26.03.2016 03:37:59: found package MV_multi1
+26.03.2016 03:37:59: found tag MV_ in package: MV_multi1
+26.03.2016 03:37:59: full path: /media/stick/pyload/download-tmp/MV_multi1/multi.part3.rar
+26.03.2016 03:37:59: destination: /mnt/storNAS/storage1/DOWNLOAD-TMP
+26.03.2016 03:37:59: finished moving multi.part3.rar to nas
+________________________________________________
+26.03.2016 03:38:07: start of pyload-action-handler
+26.03.2016 03:38:07: finished file: multi.part4.rar
+26.03.2016 03:38:07: try to get packageName with pid 226
+26.03.2016 03:38:07: found package MV_multi1
+26.03.2016 03:38:07: found tag MV_ in package: MV_multi1
+26.03.2016 03:38:07: full path: /media/stick/pyload/download-tmp/MV_multi1/multi.part4.rar
+26.03.2016 03:38:07: destination: /mnt/storNAS/storage1/DOWNLOAD-TMP
+26.03.2016 03:38:07: finished moving multi.part4.rar to nas
+________________________________________________
+26.03.2016 21:59:24: start of pyload-action-handler
+26.03.2016 21:59:24: finished file: Fallout.4.Automatron.DLC-CODEX.part2.rar
+26.03.2016 21:59:24: try to get packageName with pid 234
+26.03.2016 21:59:24: found package Fallout4_automatron_DLC
+26.03.2016 21:59:24: no tags found in package: Fallout4_automatron_DLC - exiting
+26.03.2016 21:59:24: start of pyload-action-handler
+26.03.2016 21:59:24: finished file: Fallout.4.Automatron.DLC-CODEX.part1.rar
+26.03.2016 21:59:24: try to get packageName with pid 233
+26.03.2016 21:59:24: found package Fallout4_automatron_DLC
+26.03.2016 21:59:24: no tags found in package: Fallout4_automatron_DLC - exiting
+26.03.2016 22:00:21: start of pyload-action-handler
+26.03.2016 22:00:21: finished file: Fallout.4.Automatron.DLC-CODEX.part4.rar
+26.03.2016 22:00:21: try to get packageName with pid 236
+26.03.2016 22:00:21: found package Fallout4_automatron_DLC
+26.03.2016 22:00:21: no tags found in package: Fallout4_automatron_DLC - exiting
+26.03.2016 22:00:22: start of pyload-action-handler
+26.03.2016 22:00:22: finished file: Fallout.4.Automatron.DLC-CODEX.part3.rar
+26.03.2016 22:00:22: try to get packageName with pid 235
+26.03.2016 22:00:22: found package Fallout4_automatron_DLC
+26.03.2016 22:00:22: no tags found in package: Fallout4_automatron_DLC - exiting
+26.03.2016 22:01:22: start of pyload-action-handler
+26.03.2016 22:01:22: finished file: Fallout.4.Automatron.DLC-CODEX.part6.rar
+26.03.2016 22:01:22: try to get packageName with pid 238
+26.03.2016 22:01:22: found package Fallout4_automatron_DLC
+26.03.2016 22:01:22: no tags found in package: Fallout4_automatron_DLC - exiting
+26.03.2016 22:01:23: start of pyload-action-handler
+26.03.2016 22:01:23: finished file: Fallout.4.Automatron.DLC-CODEX.part5.rar
+26.03.2016 22:01:23: try to get packageName with pid 237
+26.03.2016 22:01:23: found package Fallout4_automatron_DLC
+26.03.2016 22:01:23: no tags found in package: Fallout4_automatron_DLC - exiting
+26.03.2016 22:01:56: start of pyload-action-handler
+26.03.2016 22:01:56: finished file: Fallout.4.Automatron.DLC-CODEX.part7.rar
+26.03.2016 22:01:56: try to get packageName with pid 239
+26.03.2016 22:01:56: found package Fallout4_automatron_DLC
+26.03.2016 22:01:56: no tags found in package: Fallout4_automatron_DLC - exiting
+26.03.2016 22:01:56: start of pyload-extractor
+26.03.2016 22:01:56: finished package: Fallout4_automatron_DLC
+26.03.2016 22:01:56: package name: Fallout4_automatron_DLC
+26.03.2016 22:01:56: package location: /media/stick/pyload/download-tmp/Fallout4_automatron_DLC
+26.03.2016 22:01:56: no tags found in package: Fallout4_automatron_DLC
+26.03.2016 22:01:56: package full: /media/stick/pyload/download-tmp/Fallout4_automatron_DLC
+26.03.2016 22:01:56: destination: /media/stick/downloads
+26.03.2016 22:01:56: finished copying package folder - deleting downloaded files
+26.03.2016 22:01:56: searching for rar-files
+26.03.2016 22:01:56: found rar-file: /media/stick/downloads/Fallout4_automatron_DLC/Fallout.4.Automatron.DLC-CODEX.part1.rar
+26.03.2016 22:01:56: extracting files
+26.03.2016 22:01:56: deleting rar-files
+26.03.2016 22:01:56: sending pushbullet notice
+________________________________________________
+26.03.2016 22:07:56: start of pyload-action-handler
+26.03.2016 22:07:56: finished file: FALL4_M2_UPD9.part1.rar
+26.03.2016 22:07:56: try to get packageName with pid 240
+26.03.2016 22:07:56: found package Fallout4_update9
+26.03.2016 22:07:56: no tags found in package: Fallout4_update9 - exiting
+26.03.2016 22:08:44: start of pyload-action-handler
+26.03.2016 22:08:44: finished file: FALL4_M2_UPD9.part3.rar
+26.03.2016 22:08:44: try to get packageName with pid 242
+26.03.2016 22:08:44: found package Fallout4_update9
+26.03.2016 22:08:44: no tags found in package: Fallout4_update9 - exiting
+26.03.2016 22:13:07: start of pyload-action-handler
+26.03.2016 22:13:07: finished file: Shelt-GXOG.rar
+26.03.2016 22:13:07: try to get packageName with pid 243
+26.03.2016 22:13:07: found package Sheltered
+26.03.2016 22:13:07: no tags found in package: Sheltered - exiting
+26.03.2016 22:13:08: start of pyload-action-handler
+26.03.2016 22:13:08: finished file: FALL4_M2_UPD9.part2.rar
+26.03.2016 22:13:08: try to get packageName with pid 241
+26.03.2016 22:13:08: found package Fallout4_update9
+26.03.2016 22:13:08: no tags found in package: Fallout4_update9 - exiting
+26.03.2016 22:13:09: start of pyload-extractor
+26.03.2016 22:13:09: finished package: Sheltered
+26.03.2016 22:13:09: package name: Sheltered
+26.03.2016 22:13:09: package location: /media/stick/pyload/download-tmp/Sheltered
+26.03.2016 22:13:09: no tags found in package: Sheltered
+26.03.2016 22:13:09: package full: /media/stick/pyload/download-tmp/Sheltered
+26.03.2016 22:13:09: destination: /media/stick/downloads
+26.03.2016 22:13:09: finished copying package folder - deleting downloaded files
+26.03.2016 22:13:09: searching for rar-files
+26.03.2016 22:13:09: found rar-file: /media/stick/downloads/Sheltered/Shelt-GXOG.rar
+26.03.2016 22:13:09: extracting files
+26.03.2016 22:13:09: deleting rar-files
+26.03.2016 22:13:09: sending pushbullet notice
+________________________________________________
+26.03.2016 22:15:08: start of pyload-extractor
+26.03.2016 22:15:08: finished package: Fallout4_update9
+26.03.2016 22:15:08: package name: Fallout4_update9
+26.03.2016 22:15:08: package location: /media/stick/pyload/download-tmp/Fallout4_update9
+26.03.2016 22:15:08: no tags found in package: Fallout4_update9
+26.03.2016 22:15:08: package full: /media/stick/pyload/download-tmp/Fallout4_update9
+26.03.2016 22:15:08: destination: /media/stick/downloads
+26.03.2016 22:15:08: finished copying package folder - deleting downloaded files
+26.03.2016 22:15:08: searching for rar-files
+26.03.2016 22:15:08: found rar-file: /media/stick/downloads/Fallout4_update9/FALL4_M2_UPD9.part1.rar
+26.03.2016 22:15:08: extracting files
+26.03.2016 22:15:08: using rar-pw: .x.X.RIDDICK.X.x.
+26.03.2016 22:15:08: deleting rar-files
+26.03.2016 22:15:08: sending pushbullet notice
+________________________________________________
+26.03.2016 23:07:13: start of pyload-action-handler
+26.03.2016 23:07:13: finished file: 02050601.part01.rar
+26.03.2016 23:07:13: try to get packageName with pid 245
+26.03.2016 23:07:13: found package Zelda_skywardsword
+26.03.2016 23:07:13: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:07:14: start of pyload-action-handler
+26.03.2016 23:07:14: finished file: 02050601.part02.rar
+26.03.2016 23:07:14: try to get packageName with pid 246
+26.03.2016 23:07:14: found package Zelda_skywardsword
+26.03.2016 23:07:14: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:08:00: start of pyload-action-handler
+26.03.2016 23:08:00: finished file: 02050601.part03.rar
+26.03.2016 23:08:00: try to get packageName with pid 247
+26.03.2016 23:08:00: found package Zelda_skywardsword
+26.03.2016 23:08:00: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:08:11: start of pyload-action-handler
+26.03.2016 23:08:11: finished file: 02050601.part04.rar
+26.03.2016 23:08:11: try to get packageName with pid 248
+26.03.2016 23:08:11: found package Zelda_skywardsword
+26.03.2016 23:08:11: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:09:06: start of pyload-action-handler
+26.03.2016 23:09:06: finished file: 02050601.part05.rar
+26.03.2016 23:09:06: try to get packageName with pid 249
+26.03.2016 23:09:06: found package Zelda_skywardsword
+26.03.2016 23:09:06: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:09:06: start of pyload-action-handler
+26.03.2016 23:09:06: finished file: 02050601.part06.rar
+26.03.2016 23:09:06: try to get packageName with pid 250
+26.03.2016 23:09:06: found package Zelda_skywardsword
+26.03.2016 23:09:06: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:10:03: start of pyload-action-handler
+26.03.2016 23:10:03: finished file: 02050601.part08.rar
+26.03.2016 23:10:03: try to get packageName with pid 252
+26.03.2016 23:10:03: found package Zelda_skywardsword
+26.03.2016 23:10:03: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:10:04: start of pyload-action-handler
+26.03.2016 23:10:04: finished file: 02050601.part07.rar
+26.03.2016 23:10:04: try to get packageName with pid 251
+26.03.2016 23:10:04: found package Zelda_skywardsword
+26.03.2016 23:10:04: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:10:59: start of pyload-action-handler
+26.03.2016 23:10:59: finished file: 02050601.part10.rar
+26.03.2016 23:10:59: try to get packageName with pid 254
+26.03.2016 23:10:59: found package Zelda_skywardsword
+26.03.2016 23:10:59: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:10:59: start of pyload-action-handler
+26.03.2016 23:10:59: finished file: 02050601.part09.rar
+26.03.2016 23:10:59: try to get packageName with pid 253
+26.03.2016 23:10:59: found package Zelda_skywardsword
+26.03.2016 23:10:59: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:11:55: start of pyload-action-handler
+26.03.2016 23:11:55: finished file: 02050601.part11.rar
+26.03.2016 23:11:55: try to get packageName with pid 255
+26.03.2016 23:11:55: found package Zelda_skywardsword
+26.03.2016 23:11:55: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:11:56: start of pyload-action-handler
+26.03.2016 23:11:56: finished file: 02050601.part12.rar
+26.03.2016 23:11:56: try to get packageName with pid 256
+26.03.2016 23:11:56: found package Zelda_skywardsword
+26.03.2016 23:11:56: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:12:50: start of pyload-action-handler
+26.03.2016 23:12:50: finished file: 02050601.part14.rar
+26.03.2016 23:12:50: try to get packageName with pid 258
+26.03.2016 23:12:50: found package Zelda_skywardsword
+26.03.2016 23:12:50: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:12:51: start of pyload-action-handler
+26.03.2016 23:12:51: finished file: 02050601.part13.rar
+26.03.2016 23:12:51: try to get packageName with pid 257
+26.03.2016 23:12:51: found package Zelda_skywardsword
+26.03.2016 23:12:51: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:13:45: start of pyload-action-handler
+26.03.2016 23:13:45: finished file: 02050601.part16.rar
+26.03.2016 23:13:45: try to get packageName with pid 260
+26.03.2016 23:13:45: found package Zelda_skywardsword
+26.03.2016 23:13:45: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:13:45: start of pyload-action-handler
+26.03.2016 23:13:45: finished file: 02050601.part15.rar
+26.03.2016 23:13:45: try to get packageName with pid 259
+26.03.2016 23:13:45: found package Zelda_skywardsword
+26.03.2016 23:13:45: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:14:42: start of pyload-action-handler
+26.03.2016 23:14:42: finished file: 02050601.part18.rar
+26.03.2016 23:14:42: try to get packageName with pid 262
+26.03.2016 23:14:42: found package Zelda_skywardsword
+26.03.2016 23:14:42: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:14:43: start of pyload-action-handler
+26.03.2016 23:14:43: finished file: 02050601.part17.rar
+26.03.2016 23:14:43: try to get packageName with pid 261
+26.03.2016 23:14:43: found package Zelda_skywardsword
+26.03.2016 23:14:43: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:15:40: start of pyload-action-handler
+26.03.2016 23:15:40: finished file: 02050601.part19.rar
+26.03.2016 23:15:40: try to get packageName with pid 263
+26.03.2016 23:15:40: found package Zelda_skywardsword
+26.03.2016 23:15:40: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:15:41: start of pyload-action-handler
+26.03.2016 23:15:41: finished file: 02050601.part20.rar
+26.03.2016 23:15:41: try to get packageName with pid 264
+26.03.2016 23:15:41: found package Zelda_skywardsword
+26.03.2016 23:15:41: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:16:32: start of pyload-action-handler
+26.03.2016 23:16:32: finished file: 02050601.part21.rar
+26.03.2016 23:16:32: try to get packageName with pid 265
+26.03.2016 23:16:32: found package Zelda_skywardsword
+26.03.2016 23:16:32: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:16:32: start of pyload-action-handler
+26.03.2016 23:16:32: finished file: 02050601.part22.rar
+26.03.2016 23:16:32: try to get packageName with pid 266
+26.03.2016 23:16:32: found package Zelda_skywardsword
+26.03.2016 23:16:32: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:17:14: start of pyload-action-handler
+26.03.2016 23:17:14: finished file: 02050601.part23.rar
+26.03.2016 23:17:14: try to get packageName with pid 267
+26.03.2016 23:17:14: found package Zelda_skywardsword
+26.03.2016 23:17:14: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:17:23: start of pyload-action-handler
+26.03.2016 23:17:23: finished file: 02050601.part24.rar
+26.03.2016 23:17:23: try to get packageName with pid 268
+26.03.2016 23:17:23: found package Zelda_skywardsword
+26.03.2016 23:17:23: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:18:15: start of pyload-action-handler
+26.03.2016 23:18:15: finished file: 02050601.part25.rar
+26.03.2016 23:18:15: try to get packageName with pid 269
+26.03.2016 23:18:15: found package Zelda_skywardsword
+26.03.2016 23:18:15: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:18:15: start of pyload-action-handler
+26.03.2016 23:18:15: finished file: 02050601.part26.rar
+26.03.2016 23:18:15: try to get packageName with pid 270
+26.03.2016 23:18:15: found package Zelda_skywardsword
+26.03.2016 23:18:15: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:19:06: start of pyload-action-handler
+26.03.2016 23:19:06: finished file: 02050601.part27.rar
+26.03.2016 23:19:06: try to get packageName with pid 271
+26.03.2016 23:19:06: found package Zelda_skywardsword
+26.03.2016 23:19:06: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:19:07: start of pyload-action-handler
+26.03.2016 23:19:07: finished file: 02050601.part28.rar
+26.03.2016 23:19:07: try to get packageName with pid 272
+26.03.2016 23:19:07: found package Zelda_skywardsword
+26.03.2016 23:19:07: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:20:04: start of pyload-action-handler
+26.03.2016 23:20:04: finished file: 02050601.part29.rar
+26.03.2016 23:20:04: try to get packageName with pid 273
+26.03.2016 23:20:04: found package Zelda_skywardsword
+26.03.2016 23:20:04: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:20:05: start of pyload-action-handler
+26.03.2016 23:20:05: finished file: 02050601.part30.rar
+26.03.2016 23:20:05: try to get packageName with pid 274
+26.03.2016 23:20:05: found package Zelda_skywardsword
+26.03.2016 23:20:05: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:21:00: start of pyload-action-handler
+26.03.2016 23:21:00: finished file: 02050601.part31.rar
+26.03.2016 23:21:00: try to get packageName with pid 275
+26.03.2016 23:21:00: found package Zelda_skywardsword
+26.03.2016 23:21:00: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:21:01: start of pyload-action-handler
+26.03.2016 23:21:01: finished file: 02050601.part32.rar
+26.03.2016 23:21:01: try to get packageName with pid 276
+26.03.2016 23:21:01: found package Zelda_skywardsword
+26.03.2016 23:21:01: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:21:56: start of pyload-action-handler
+26.03.2016 23:21:56: finished file: 02050601.part33.rar
+26.03.2016 23:21:56: try to get packageName with pid 277
+26.03.2016 23:21:56: found package Zelda_skywardsword
+26.03.2016 23:21:56: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:21:56: start of pyload-action-handler
+26.03.2016 23:21:56: finished file: 02050601.part34.rar
+26.03.2016 23:21:56: try to get packageName with pid 278
+26.03.2016 23:21:56: found package Zelda_skywardsword
+26.03.2016 23:21:56: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:22:36: start of pyload-action-handler
+26.03.2016 23:22:36: finished file: 02050601.part35.rar
+26.03.2016 23:22:36: try to get packageName with pid 279
+26.03.2016 23:22:36: found package Zelda_skywardsword
+26.03.2016 23:22:36: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:22:47: start of pyload-action-handler
+26.03.2016 23:22:47: finished file: 02050601.part36.rar
+26.03.2016 23:22:47: try to get packageName with pid 280
+26.03.2016 23:22:47: found package Zelda_skywardsword
+26.03.2016 23:22:47: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:23:37: start of pyload-action-handler
+26.03.2016 23:23:37: finished file: 02050601.part38.rar
+26.03.2016 23:23:37: try to get packageName with pid 282
+26.03.2016 23:23:37: found package Zelda_skywardsword
+26.03.2016 23:23:37: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:23:38: start of pyload-action-handler
+26.03.2016 23:23:38: finished file: 02050601.part37.rar
+26.03.2016 23:23:38: try to get packageName with pid 281
+26.03.2016 23:23:38: found package Zelda_skywardsword
+26.03.2016 23:23:38: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:24:27: start of pyload-action-handler
+26.03.2016 23:24:27: finished file: 02050601.part40.rar
+26.03.2016 23:24:27: try to get packageName with pid 284
+26.03.2016 23:24:27: found package Zelda_skywardsword
+26.03.2016 23:24:27: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:24:28: start of pyload-action-handler
+26.03.2016 23:24:28: finished file: 02050601.part39.rar
+26.03.2016 23:24:28: try to get packageName with pid 283
+26.03.2016 23:24:28: found package Zelda_skywardsword
+26.03.2016 23:24:28: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:25:21: start of pyload-action-handler
+26.03.2016 23:25:21: finished file: 02050601.part42.rar
+26.03.2016 23:25:21: try to get packageName with pid 286
+26.03.2016 23:25:21: found package Zelda_skywardsword
+26.03.2016 23:25:21: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:25:22: start of pyload-action-handler
+26.03.2016 23:25:22: finished file: 02050601.part41.rar
+26.03.2016 23:25:22: try to get packageName with pid 285
+26.03.2016 23:25:22: found package Zelda_skywardsword
+26.03.2016 23:25:22: no tags found in package: Zelda_skywardsword - exiting
+26.03.2016 23:25:23: start of pyload-extractor
+26.03.2016 23:25:23: finished package: Zelda_skywardsword
+26.03.2016 23:25:23: package name: Zelda_skywardsword
+26.03.2016 23:25:23: package location: /media/stick/pyload/download-tmp/Zelda_skywardsword
+26.03.2016 23:25:23: no tags found in package: Zelda_skywardsword
+26.03.2016 23:25:23: package full: /media/stick/pyload/download-tmp/Zelda_skywardsword
+26.03.2016 23:25:23: destination: /media/stick/downloads
+26.03.2016 23:25:23: finished copying package folder - deleting downloaded files
+26.03.2016 23:25:23: searching for rar-files
+26.03.2016 23:25:23: found rar-file: /media/stick/downloads/Zelda_skywardsword/02050601.part01.rar
+26.03.2016 23:25:23: extracting files
+26.03.2016 23:25:23: deleting rar-files
+26.03.2016 23:25:23: sending pushbullet notice
+________________________________________________
+26.03.2016 23:58:11: start of pyload-extractor
+26.03.2016 23:58:11: finished package: Zelda_skywardsword
+26.03.2016 23:58:11: package name: Zelda_skywardsword
+26.03.2016 23:58:11: package location: /media/stick/pyload/download-tmp/Zelda_skywardsword
+26.03.2016 23:58:11: no tags found in package: Zelda_skywardsword
+26.03.2016 23:58:11: package full: /media/stick/pyload/download-tmp/Zelda_skywardsword
+26.03.2016 23:58:11: destination: /media/stick/downloads
+26.03.2016 23:58:11: error while copying package folder - no files were removed - exiting
+________________________________________________
+29.03.2016 20:23:35: start of pyload-extractor
+29.03.2016 20:23:35: finished package: MetalGearSolid_PP_crackfix
+29.03.2016 20:23:35: package name: MetalGearSolid_PP_crackfix
+29.03.2016 20:23:35: package location: /media/stick/pyload/download-tmp/MetalGearSolid_PP_crackfix
+29.03.2016 20:23:35: no tags found in package: MetalGearSolid_PP_crackfix
+29.03.2016 20:23:35: package full: /media/stick/pyload/download-tmp/MetalGearSolid_PP_crackfix
+29.03.2016 20:23:35: destination: /media/stick/downloads
+29.03.2016 20:23:35: finished copying package folder - deleting downloaded files
+29.03.2016 20:23:35: searching for rar-files
+29.03.2016 20:23:35: found rar-file: /media/stick/downloads/MetalGearSolid_PP_crackfix/3DMGAME-MGSV.TPP.v1.005.v2.Crack+FIX.rar
+29.03.2016 20:23:35: extracting files
+29.03.2016 20:23:35: deleting rar-files
+29.03.2016 20:23:35: sending pushbullet notice
+________________________________________________
+29.03.2016 21:21:36: start of pyload-action-handler
+29.03.2016 21:21:36: finished file: 
+29.03.2016 21:21:36: try to get packageName with pid 
+29.03.2016 21:21:36: found package 
+29.03.2016 21:21:36: no tags found in package:  - exiting
+29.03.2016 21:21:45: start of pyload-action-handler
+29.03.2016 21:21:45: finished file: 
+29.03.2016 21:21:45: try to get packageName with pid 33
+29.03.2016 21:21:45: found package 
+29.03.2016 21:21:45: no tags found in package:  - exiting
+29.03.2016 22:35:41        TEST      this is just a test
+29.03.2016 22:55:07        INFO      pyload-action-handler: finished file multi.part1.rar
+29.03.2016 22:55:07        INFO      pyload-action-handler: try to get pkgName with pid 289
+29.03.2016 22:55:07        INFO      pyload-action-handler: found package-id 39
+29.03.2016 22:55:07        INFO      pyload-action-handler: found package MV_test2
+29.03.2016 22:55:07        INFO      pyload-action-handler: found tag MV_ in package MV_test2 > moving
+29.03.2016 22:55:07        INFO      pyload-action-handler: filepath > /media/stick/pyload/download-tmp/MV_test2/multi.part1.rar
+29.03.2016 22:55:07        INFO      pyload-action-handler: destination > /mnt/storNAS/storage1/DOWNLOAD-TMP
+29.03.2016 22:55:07        ERROR      pyload-action-handler: error while moving multi.part1.rar to nas > exiting
+29.03.2016 22:55:07        END      ------------------------------------------------------------------------
+29.03.2016 23:19:36        INFO      pyload-action-handler: finished file multi.part1.rar
+29.03.2016 23:19:36        INFO      pyload-action-handler: try to get pkgName with pid 289
+29.03.2016 23:19:36        INFO      pyload-action-handler: found package-id 39
+29.03.2016 23:19:36        INFO      pyload-action-handler: found package MV_test2
+29.03.2016 23:19:36        INFO      pyload-action-handler: found tag MV_ in package MV_test2 > moving
+29.03.2016 23:19:37        INFO      pyload-action-handler: filepath > /media/stick/pyload/download-tmp/MV_test2/multi.part1.rar
+29.03.2016 23:19:37        INFO      pyload-action-handler: destination > /mnt/storNAS/storage1/DOWNLOAD-TMP
+29.03.2016 23:19:37        ERROR      pyload-action-handler: error while moving multi.part1.rar to nas > exiting
+29.03.2016 23:19:37        END      ------------------------------------------------------------------------
+30.03.2016 00:33:15        INFO      pyload-action-handler: finished file bla1.rar
+30.03.2016 00:33:15        INFO      pyload-action-handler: try to get pkgName with pid 292
+30.03.2016 00:33:16        INFO      pyload-action-handler: found package-id 41
+30.03.2016 00:33:16        INFO      pyload-action-handler: found package MVfile_test2
+30.03.2016 00:33:16        INFO      pyload-action-handler: found tag MVfile_ in package MVfile_test2 > moving files
+30.03.2016 00:33:16        INFO      pyload-action-handler: filepath > /media/stick/pyload/download-tmp/test2/bla1.rar
+30.03.2016 00:33:16        INFO      pyload-action-handler: destination > /mnt/storNAS/storage1/DOWNLOAD-TMP
+30.03.2016 00:33:20        INFO      pyload-action-handler: folder /mnt/storNAS/storage1/DOWNLOAD-TMP/MVfile_test2 created
+30.03.2016 00:33:23        INFO      pyload-action-handler: bla1.rar has moved to nas
+30.03.2016 00:33:23        INFO      pyload-action-handler: no extraction needed for bla1.rar
+30.03.2016 00:33:23        END      ------------------------------------------------------------------------
+30.03.2016 00:33:24        INFO      pyload-action-handler: finished file bla2.rar
+30.03.2016 00:33:24        INFO      pyload-action-handler: try to get pkgName with pid 293
+30.03.2016 00:33:24        INFO      pyload-action-handler: found package-id 41
+30.03.2016 00:33:25        INFO      pyload-action-handler: found package MVfile_test2
+30.03.2016 00:33:25        INFO      pyload-action-handler: found tag MVfile_ in package MVfile_test2 > moving files
+30.03.2016 00:33:25        INFO      pyload-action-handler: filepath > /media/stick/pyload/download-tmp/test2/bla2.rar
+30.03.2016 00:33:25        INFO      pyload-action-handler: destination > /mnt/storNAS/storage1/DOWNLOAD-TMP
+30.03.2016 00:33:25        ERROR      pyload-action-handler: folder /mnt/storNAS/storage1/DOWNLOAD-TMP/MVfile_test2 could not be created > exiting
+30.03.2016 00:33:25        INFO      pyload-action-handler: bla2.rar has moved to nas
+30.03.2016 00:33:25        INFO      pyload-action-handler: no extraction needed for bla2.rar
+30.03.2016 00:33:25        END      ------------------------------------------------------------------------
+30.03.2016 00:33:26        INFO      pyload-action-handler: finished file bla3.rar
+30.03.2016 00:33:26        INFO      pyload-action-handler: try to get pkgName with pid 294
+30.03.2016 00:33:26        INFO      pyload-action-handler: found package-id 41
+30.03.2016 00:33:26        INFO      pyload-action-handler: found package MVfile_test2
+30.03.2016 00:33:26        INFO      pyload-action-handler: found tag MVfile_ in package MVfile_test2 > moving files
+30.03.2016 00:33:26        INFO      pyload-action-handler: filepath > /media/stick/pyload/download-tmp/test2/bla3.rar
+30.03.2016 00:33:26        INFO      pyload-action-handler: destination > /mnt/storNAS/storage1/DOWNLOAD-TMP
+30.03.2016 00:33:26        ERROR      pyload-action-handler: folder /mnt/storNAS/storage1/DOWNLOAD-TMP/MVfile_test2 could not be created > exiting
+30.03.2016 00:33:26        INFO      pyload-action-handler: bla3.rar has moved to nas
+30.03.2016 00:33:26        INFO      pyload-action-handler: no extraction needed for bla3.rar
+30.03.2016 00:33:26        END      ------------------------------------------------------------------------
+30.03.2016 00:33:29        INFO      pyload-action-handler: finished file bla4.rar
+30.03.2016 00:33:29        INFO      pyload-action-handler: try to get pkgName with pid 295
+30.03.2016 00:33:29        INFO      pyload-action-handler: found package-id 41
+30.03.2016 00:33:29        INFO      pyload-action-handler: found package MVfile_test2
+30.03.2016 00:33:29        INFO      pyload-action-handler: found tag MVfile_ in package MVfile_test2 > moving files
+30.03.2016 00:33:29        INFO      pyload-action-handler: filepath > /media/stick/pyload/download-tmp/test2/bla4.rar
+30.03.2016 00:33:29        INFO      pyload-action-handler: destination > /mnt/storNAS/storage1/DOWNLOAD-TMP
+30.03.2016 00:33:29        ERROR      pyload-action-handler: folder /mnt/storNAS/storage1/DOWNLOAD-TMP/MVfile_test2 could not be created > exiting
+30.03.2016 00:33:29        INFO      pyload-action-handler: bla4.rar has moved to nas
+30.03.2016 00:33:29        INFO      pyload-action-handler: no extraction needed for bla4.rar
+30.03.2016 00:33:29        END      ------------------------------------------------------------------------
+30.03.2016 00:33:30        INFO      pyload-extractor: finished package MVfile_test2
+30.03.2016 00:33:30        INFO      pyload-extractor: package-name > MVfile_test2
+30.03.2016 00:33:30        INFO      pyload-extractor: package-location > /media/stick/pyload/download-tmp/test2
+30.03.2016 00:33:30        INFO      pyload-extractor: found tag MVfile_ in package MVfile_test2 > skipping
+30.03.2016 00:35:45        INFO      pyload-action-handler: finished file multi.part1.rar
+30.03.2016 00:35:45        INFO      pyload-action-handler: try to get pkgName with pid 296
+30.03.2016 00:35:46        INFO      pyload-action-handler: found package-id 42
+30.03.2016 00:35:46        INFO      pyload-action-handler: found package test3
+30.03.2016 00:35:46        INFO      pyload-action-handler: no tags found in package test3 > skipping
+30.03.2016 00:35:47        INFO      pyload-action-handler: finished file multi.part2.rar
+30.03.2016 00:35:47        INFO      pyload-action-handler: try to get pkgName with pid 297
+30.03.2016 00:35:48        INFO      pyload-action-handler: found package-id 42
+30.03.2016 00:35:48        INFO      pyload-action-handler: found package test3
+30.03.2016 00:35:48        INFO      pyload-action-handler: no tags found in package test3 > skipping
+30.03.2016 00:36:22        INFO      pyload-action-handler: finished file multi.part3.rar
+30.03.2016 00:36:22        INFO      pyload-action-handler: try to get pkgName with pid 298
+30.03.2016 00:36:23        INFO      pyload-action-handler: found package-id 42
+30.03.2016 00:36:23        INFO      pyload-action-handler: found package test3
+30.03.2016 00:36:23        INFO      pyload-action-handler: no tags found in package test3 > skipping
+30.03.2016 00:36:34        INFO      pyload-action-handler: finished file multi.part4.rar
+30.03.2016 00:36:34        INFO      pyload-action-handler: try to get pkgName with pid 299
+30.03.2016 00:36:34        INFO      pyload-action-handler: found package-id 42
+30.03.2016 00:36:38        INFO      pyload-action-handler: found package test3
+30.03.2016 00:36:38        INFO      pyload-action-handler: no tags found in package test3 > skipping
+30.03.2016 00:36:39        INFO      pyload-action-handler: finished file multi.part5.rar
+30.03.2016 00:36:39        INFO      pyload-action-handler: try to get pkgName with pid 300
+30.03.2016 00:36:39        INFO      pyload-action-handler: found package-id 42
+30.03.2016 00:36:39        INFO      pyload-action-handler: found package test3
+30.03.2016 00:36:39        INFO      pyload-action-handler: no tags found in package test3 > skipping
+30.03.2016 00:36:39        INFO      pyload-extractor: finished package test3
+30.03.2016 00:36:39        INFO      pyload-extractor: package-name > test3
+30.03.2016 00:36:39        INFO      pyload-extractor: package-location > /media/stick/pyload/download-tmp/test3
+30.03.2016 00:36:39        INFO      pyload-extractor: no tags found in package test3 > extracting
+30.03.2016 00:36:39        INFO      pyload-extractor: package-full > /media/stick/pyload/download-tmp/test3
+30.03.2016 00:36:39        INFO      pyload-extractor: package-destination > /media/stick/downloads
+30.03.2016 00:36:39        INFO      pyload-extractor: finished moving test3 to /media/stick/downloads
+30.03.2016 00:36:39        INFO      pyload-extractor: searching for rar-files in package test3
+30.03.2016 00:36:39        INFO      pyload-extractor: found RAR file (*.part1.rar) in package test3
+30.03.2016 00:36:39        INFO      pyload-extractor: found archive in package test3 > /media/stick/downloads/test3/multi.part1.rar | rar
+30.03.2016 00:36:39        INFO      pyload-extractor: extracting files in package test3 > rar
+30.03.2016 00:45:36        INFO      pyload-extractor: finished package test3
+30.03.2016 00:45:36        INFO      pyload-extractor: package-name > test3
+30.03.2016 00:45:36        INFO      pyload-extractor: package-location > /media/stick/pyload/download-tmp/test3
+30.03.2016 00:45:36        INFO      pyload-extractor: no tags found in package test3 > extracting
+30.03.2016 00:45:36        INFO      pyload-extractor: package-full > /media/stick/pyload/download-tmp/test3
+30.03.2016 00:45:36        INFO      pyload-extractor: package-destination > /media/stick/downloads
+30.03.2016 00:45:36        INFO      pyload-extractor: finished moving test3 to /media/stick/downloads
+30.03.2016 00:45:36        INFO      pyload-extractor: searching for rar-files in package test3
+30.03.2016 00:45:36        INFO      pyload-extractor: found RAR file (*.part1.rar) in package test3
+30.03.2016 00:45:36        INFO      pyload-extractor: found archive in package test3 > /media/stick/downloads/test3/multi.part1.rar | rar
+30.03.2016 00:45:36        INFO      pyload-extractor: extracting files in package test3 > rar
+30.03.2016 00:46:51        INFO      pyload-extractor: finished package test3
+30.03.2016 00:46:52        INFO      pyload-extractor: package-name > test3
+30.03.2016 00:46:52        INFO      pyload-extractor: package-location > /media/stick/pyload/download-tmp/test3
+30.03.2016 00:46:52        INFO      pyload-extractor: no tags found in package test3 > extracting
+30.03.2016 00:46:52        INFO      pyload-extractor: package-full > /media/stick/pyload/download-tmp/test3
+30.03.2016 00:46:52        INFO      pyload-extractor: package-destination > /media/stick/downloads
+30.03.2016 00:46:52        ERROR      pyload-extractor: error while moving package test3 to /media/stick/downloads > exiting
+30.03.2016 00:47:12        INFO      pyload-extractor: finished package test3
+30.03.2016 00:47:12        INFO      pyload-extractor: package-name > test3
+30.03.2016 00:47:12        INFO      pyload-extractor: package-location > /media/stick/pyload/download-tmp/test3
+30.03.2016 00:47:12        INFO      pyload-extractor: no tags found in package test3 > extracting
+30.03.2016 00:47:12        INFO      pyload-extractor: package-full > /media/stick/pyload/download-tmp/test3
+30.03.2016 00:47:12        INFO      pyload-extractor: package-destination > /media/stick/downloads
+30.03.2016 00:47:12        INFO      pyload-extractor: finished moving test3 to /media/stick/downloads
+30.03.2016 00:47:12        INFO      pyload-extractor: searching for rar-files in package test3
+30.03.2016 00:47:12        INFO      pyload-extractor: found RAR file (*.part1.rar) in package test3
+30.03.2016 00:47:12        INFO      pyload-extractor: found archive in package test3 > /media/stick/downloads/test3/multi.part1.rar | rar
+30.03.2016 00:47:12        INFO      pyload-extractor: extracting files in package test3 > rar
+30.03.2016 00:47:49        INFO      pyload-extractor: extracting finished in package test3 > deleting files
+30.03.2016 00:47:49        INFO      pyload-extractor: sending pushbullet notice for package test3
+30.03.2016 00:47:51        END      ------------------------------------------------------------------------
+30.03.2016 01:08:27        INFO      pyload-extractor-file: extracting file > /mnt/storNAS/storage1/DOWNLOAD-TMP/test4/test4.rar
+30.03.2016 01:08:27        INFO      pyload-extractor-file: archive-path > /mnt/storNAS/storage1/DOWNLOAD-TMP/test4/test4.rar
+30.03.2016 01:08:27        INFO      pyload-extractor-file: package-name > test4
+30.03.2016 01:08:27        INFO      pyload-extractor-file: archive-pw > 
+30.03.2016 01:08:27        INFO      pyload-extractor-file: checking archive-file in /mnt/storNAS/storage1/DOWNLOAD-TMP/test4 > /mnt/storNAS/storage1/DOWNLOAD-TMP/test4/test4.rar
+30.03.2016 01:08:27        INFO      pyload-extractor-file: found RAR file (*.rar) in package test4
+30.03.2016 01:08:27        INFO      pyload-extractor-file: found archive > /mnt/storNAS/storage1/DOWNLOAD-TMP/test4/test4.rar | rar
+30.03.2016 01:08:27        INFO      pyload-extractor-file: extracting file /mnt/storNAS/storage1/DOWNLOAD-TMP/test4/test4.rar > rar
+30.03.2016 01:08:28        INFO      pyload-extractor-file: extracting finished in file /mnt/storNAS/storage1/DOWNLOAD-TMP/test4/test4.rar > deleting files
+30.03.2016 01:08:28        INFO      pyload-extractor-file: sending pushbullet notice for file /mnt/storNAS/storage1/DOWNLOAD-TMP/test4/test4.rar
+30.03.2016 01:08:29        END      ------------------------------------------------------------------------
