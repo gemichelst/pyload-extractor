@@ -7,6 +7,12 @@ This script collection activates automatic extraction of finished packages or fi
 Single files in a package will be moved or moved+extracted by using tags in PackageName at the pyload webgui. 
 (useful for single archive files in the same package like: artist-album1.zip artist-album2.zip etc)
 
+[tags]
+MVfile_  = will move every file to specified folder when finished download
+MVEXfile = will and extract file to speciefied folder when finished download
+MVpkg = not yet implemented
+MVEXpkg = not yet implenented
+
 If no tag is present in the psckage name  the script will move and extract the whole package at once when finished downloading all files in the package 
 (useful for multiple/splitted archives like: file.part1.rar file.part2.rar)
 
