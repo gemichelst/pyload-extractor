@@ -132,10 +132,10 @@ fi
 
 echo "creating env variables"
 vars() {
-export PYLOAD_TOOL_CFG="$pyload_dir/pyload-tools-config.cfg"
-export PYLOAD_INCLUDE_TAGS="$pyload_dir/pyload-include-tags"
-export PYLOAD_EXTRACTOR="$pyload_dir/pyload-extractor"
-export PYLOAD_EXTRACTOR_FILE="$pyload_dir/pyload-extractor-file"
+export PYLOAD_TOOL_CFG="$pyload_script_files_dir/pyload-tools-config.cfg"
+export PYLOAD_INCLUDE_TAGS="$pyload_script_files_dir/pyload-include-tags"
+export PYLOAD_EXTRACTOR="$pyload_script_files_dir/pyload-extractor"
+export PYLOAD_EXTRACTOR_FILE="$pyload_script_files_dir/pyload-extractor-file"
 echo "PYLOAD_TOOL_CFG=\"$PYLOAD_TOOL_CFG\"" >> $env_vars
 echo "PYLOAD_INCLUDE_TAGS=\"$PYLOAD_INCLUDE_TAGS\"" >> $env_vars
 echo "PYLOAD_EXTRACTOR=\"$PYLOAD_EXTRACTOR\"" >> $env_vars
@@ -153,3 +153,4 @@ fi
 echo "installation done > please relogin to activate env vars"
 echo "after relogin enable \"external scripts plugin\" in pyload"
 echo "exiting..."
+exit 1
