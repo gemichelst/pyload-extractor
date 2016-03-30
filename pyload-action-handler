@@ -1,0 +1,84 @@
+#!/bin/bash
+# installation: drop it into folder /root/.pyload/scripts/unrar_finished
+# execute chmod +x move_finished_packages.sh
+# $1 = fileID  $2 = filename  $3 = path-to-file  $4 = plugin  $5 = dl-url
+########################################################################
+#### NO EDIT AFTER THIS LINE ####
+#################################
+
+CONFIG_FILE=`echo $PYLOAD_TOOLS_CFG`;
+INCLUDE_FILE=`echo $PYLOAD_INCLUDE_TAGS`;
+source "$CONFIG_FILE"
+source "$INCLUDE_FILE"
+
+timestamp=$(date "+%d"."%m"."%Y %T")
+
+pylog "INFO" "pyload-action-handler: finished file $2";
+pylog "INFO" "pyload-action-handler: try to get pkgName with pid $1";
+
+file_id="$1"
+#package_id=`/usr/bin/python /usr/share/pyload/pyload-getPackageID.py $1`;
+package_id=`$python_bin $pyload_base_dir/pyload-getPackageID.py $1`;
+file_name="$2"							#filename like file.rar
+#package_name=`/usr/bin/python /usr/share/pyload/pyload-getPackageName.py $package_id`;
+package_name=`$python_bin $pyload_base_dir/pyload-getPackageName.py $package_id`;
+package_location="$pyload_dir/$dl_temp_dir/$package_name"  	#package-location from pyload (download-tmp/package-name)
+file_path="$3"
+
+# PACKAGE-ID CHECK
+if [ -n $package_id ]
+then
+pylog "INFO" "pyload-action-handler: found package-id $package_id";
+else
+pylog "ERROR" "pyload-action-handler: package-id from file $file_name not found > exiting";
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+fi
+
+# PACKAGE-NAME CHECK
+if [ -n $package_name ]
+then
+pylog "INFO" "pyload-action-handler: found package $package_name";
+chkPkgNameTagsHANDLER "$timestamp" "$log_file" "$package_name";
+else
+pylog "ERROR" "pyload-action-handler: package-name with id $package_id not found > exiting";
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+fi
+
+
+file_name_full="$file_path"
+pylog "INFO" "pyload-action-handler: filepath > $file_path";
+pylog "INFO" "pyload-action-handler: destination > $move_to_nas_dir";
+
+mkdir $move_to_nas_dir/$package_name
+if [ $? = 0 ]
+then
+pylog "INFO" "pyload-action-handler: folder $move_to_nas_dir/$package_name created";
+else
+pylog "ERROR" "pyload-action-handler: folder $move_to_nas_dir/$package_name could not be created > exiting";
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+fi
+
+mv $file_path "$move_to_nas_dir/$package_name/"
+if [ $? = 0 ]
+then
+pylog "INFO" "pyload-action-handler: $file_name has moved to nas";
+else
+pylog "ERROR" "pyload-action-handler: error while moving $file_name to nas > exiting";
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+fi
+
+if [ $extract -eq 1 ]
+then
+pylog "INFO" "pyload-action-handler: extract $file_name";
+$package_pw=`$python_bin $pyload_base_dir/pyload-getPackagePW.py $package_id`;
+$PYLOAD_EXTRACTOR_FILE "$move_to_nas_dir/$package_name/$file_name" "$package_name" "$package_pw"
+else
+pylog "INFO" "pyload-action-handler: no extraction needed for $file_name";
+fi
+
+pylog "END" "------------------------------------------------------------------------";
+exit 1

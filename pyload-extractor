@@ -1,0 +1,127 @@
+#!/bin/bash
+# installation: drop it into folder /root/.pyload/scripts/unrar_finished
+# execute chmod +x move_finished_packages.sh
+#### NO EDIT AFTER THIS LINE ####
+#################################
+
+CONFIG_FILE=`echo $PYLOAD_TOOLS_CFG`;
+INCLUDE_FILE=`echo $PYLOAD_INCLUDE_TAGS`;
+source "$CONFIG_FILE"
+source "$INCLUDE_FILE"
+
+timestamp=$(date "+%d"."%m"."%Y %T")
+pylog "INFO" "pyload-extractor: finished package $2";
+
+package_name="$2"	#package-name from pyload (package-name)
+package_location="$3"	#package-location from pyload (download-tmp/package-name)
+#package_pw="$4"	#rar-pw
+
+pylog "INFO" "pyload-extractor: package-name > $2";
+pylog "INFO" "pyload-extractor: package-location > $package_location";
+
+chkPkgNameTagsEXTRACTOR "$timestamp" "$log_file" "$package_name";
+
+package_full="$dl_dir/$package_name"
+pylog "INFO" "pyload-extractor: package-full > $package_full";
+pylog "INFO" "pyload-extractor: package-destination > $dest_dir";
+
+mv $package_full $dest_dir
+if [ $? = 0 ]
+then
+pylog "INFO" "pyload-extractor: finished moving $2 to $dest_dir";
+else
+pylog "ERROR" "pyload-extractor: error while moving package $2 to $dest_dir > exiting";
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+fi
+
+pylog "INFO" "pyload-extractor: searching for rar-files in package $2";
+
+rarcount1=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*part1.rar" | wc -l)
+rarcount2=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*part01.rar" | wc -l)
+rarcount3=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*.zip" | wc -l)
+rarcount4=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*.7z" | wc -l)
+rarcount5=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*.tar" | wc -l)
+rarcount6=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*.tar.gz" | wc -l)
+
+if [ $rarcount1 -eq 1 ]
+then
+rar_name=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*part1.rar")
+rar_type="rar"
+pylog "INFO" "pyload-extractor: found RAR file (*.part1.rar) in package $2";
+elif [ $rarcount2 -eq 1 ]
+then
+rar_name=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*part01.rar")
+rar_type="rar"
+pylog "INFO" "pyload-extractor: found RAR file (*.part01.rar) in package $2";
+elif [ $rarcount3 -eq 1 ]
+then
+rar_name=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*.zip")
+rar_type="zip"
+pylog "INFO" "pyload-extractor: found ZIP file (*.zip) in package $2";
+elif [ $rarcount4 -eq 1 ]
+then
+rar_name=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*.7zip")
+rar_type="7zip"
+pylog "INFO" "pyload-extractor: found 7ZIP file (*.7z) in package $2";
+elif [ $rarcount5 -eq 1 ]
+then
+rar_name=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*.tar")
+rar_type="tar"
+pylog "INFO" "pyload-extractor: found TAR file (*.tar) in package $2";
+elif [ $rarcount6 -eq 1 ]
+then
+rar_name=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*.tar.gz")
+rar_type="gzip"
+pylog "INFO" "pyload-extractor: found GZIP file (*.tar.gz) in package $2";
+else
+rar_name=$(find $dest_dir/$package_name/ -maxdepth 1 -name "*.rar")
+rar_type="rar"
+pylog "INFO" "pyload-extractor: found RAR file (*.rar) in package $2";
+fi
+
+if [ $? = 0 ]
+then
+pylog "INFO" "pyload-extractor: found archive in package $2 > $rar_name | $rar_type";
+else
+pylog "ERROR" "pyload-extractor: found no archive in package $2 > exiting";
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+fi
+
+pylog "INFO" "pyload-extractor: extracting files in package $2 > $rar_type";
+if [ $rar_type = "rar" ]
+then
+extractPackageRAR "$2" "$dest_dir" "$rar_name" "$4";
+elif [ $rar_type = "zip" ]
+then
+extractPackageZIP "$2" "$dest_dir" "$rar_name";
+elif [ $rar_type = "7zip" ]
+then
+extractPackage7ZIP "$2" "$dest_dir" "$rar_name" "$4";
+elif [ $rar_type = "tar" ]
+then
+extractPackageTAR "$2" r"$dest_dir" "$rar_name";
+elif [ $rar_type = "gzip" ]
+then
+extractPackageGZIP "$2" "$dest_dir" "$rar_name";
+else
+pylog "ERROR" "pyload-extractor: undefined archive typ in package $2 > aborting";
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+fi
+
+if [ $? = 0 ]
+then
+pylog "INFO" "pyload-extractor: extracting finished in package $2 > deleting files";
+rm $dest_dir/$package_name/*.$rar_type
+pylog "INFO" "pyload-extractor: sending pushbullet notice for package $2";
+send-pushbullet-notice "pyload-extractor" "$package_name extract finished" "$timestamp"
+else
+pylog "ERROR" "pyload-extractor: error while extracting package $2 > aborting";
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+fi
+
+pylog "END" "------------------------------------------------------------------------";
+exit 1

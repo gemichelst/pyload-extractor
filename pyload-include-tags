@@ -1,0 +1,142 @@
+#!/bin/bash
+# this file is for including in other scripts - no need to edit
+# installation: symlink to pyload/scripts/download_finished and pyload/scripts/package_finished
+# chmod +x this file
+
+CONFIG_FILE=$PYLOAD_TOOLS_CFG
+source $CONFIG_FILE
+
+#echo $pyload_log_file
+#echo $log_file
+
+pylog() {
+# $1 = PYLOAD-DESC (INFO, WARNING, ERROR)  $2 = LOGTEXT
+timestamp=$(date "+%d"."%m"."%Y %T")
+echo "`date +'%d.%m.%Y %H:%M:%S'` $1 $2" >> $pyload_log_file
+echo "$timestamp        $1      $2" >> $log_file
+}
+
+tags="MVfile_,MVpkg_,MVEXfile_,MVEXpkg_"
+
+tag1_name="MVfile_"		# MVfile_ = move every finished file
+#tag1_action() {    }
+
+tag2="MVpkg_"		# MVpkg_ = move every finished package
+
+tag3="MVEXfile_"	# MVEXfile_ = move and extract every finished file
+
+tag4="MVEXpkg_"		# MVEXpkg_ = move and extract every finished package
+
+
+
+
+
+
+chkPkgNameTagsEXTRACTOR() {
+# $1=TIMESTAMP  $2=LOGFILE  $3=PKG-NAME
+if grep -q "MVfile_" <<< "$3"
+then
+found_tag=1
+pylog "INFO" "pyload-extractor: found tag MVfile_ in package $3 > skipping"
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+elif grep -q "MVpkg_" <<< "$3"
+then
+found_tag=1
+pylog "INFO" "pyload-extractor: found tag MVpkg_ in package $3 > skipping"
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+elif grep -q "MVEXfile_" <<< "$3"
+then
+found_tag=1
+pylog "INFO" "pyload-extractor: found tag MVEXfile_ in package $3 > skipping"
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+elif grep -q "MVEXpkg_" <<< "$3"
+then
+found_tag=1
+pylog "INFO" "pyload-extractor: found tag MVEXpkg_ in package $3 > skipping"
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+else
+found_tag=0
+pylog "INFO" "pyload-extractor: no tags found in package $3 > extracting"
+fi
+}
+
+chkPkgNameTagsHANDLER() {
+# $1=TIMESTAMP  $2=LOGFILE  $3=PKG-NAME
+if grep -q "MVfile_" <<< "$3"
+then
+found_tag=1
+extract=0
+pylog "INFO" "pyload-action-handler: found tag MVfile_ in package $3 > moving files"
+elif grep -q "MVpkg_" <<< "$3"
+then
+found_tag=1
+extract=0
+pylog "INFO" "pyload-action-handler: found tag MVpkg_ in package $3 > moving package"
+elif grep -q "MVEXfile_" <<< "$3"
+then
+found_tag=1
+extract=1
+pylog "INFO" "pyload-action-handler: found tag MVEXfile_ in package $3 > moving and extracting files"
+elif grep -q "MVEXpkg_" <<< "$3"
+then
+found_tag=1
+extract=1
+pylog "INFO" "pyload-action-handler: found tag MVEXpkg_ in package $3 > moving and extracting package"
+else
+found_tag=0
+extract=0
+pylog "INFO" "pyload-action-handler: no tags found in package $3 > skipping"
+pylog "END" "------------------------------------------------------------------------";
+exit 1
+fi
+}
+
+extractPackageRAR() {
+# $1=package_name  $2=dest_dir  $3=rar_name  $4=pw
+cd $2/$1
+if [ -n "$4" ]
+then
+rar_pw=$4
+pylog "INFO" "pyload-extractor: using rar-pw in package $2 > $4";
+unrar e -p"$4" "$3"
+else
+unrar e "$3"
+fi
+}
+
+extractPackageZIP() {
+# $1=package_name  $2=dest_dir  $3=rar_name  $4=pw
+cd $2/$1
+unzip "$3"
+}
+
+extractPackage7ZIP() {
+# $1=package_name  $2=dest_dir  $3=rar_name  $4=pw
+cd $2/$1
+if [ -n "$4" ]
+then
+rar_pw=$4
+pylog "INFO" "pyload-extractor: using 7zip-pw in package $2 > $4";
+sevenzip e -p"$4" "$3"
+else
+sevenzip e "$3"
+fi
+}
+
+extractPackageTAR() {
+# $1=package_name  $2=dest_dir  $3=rar_name  $4=pw
+cd $2/$1
+tar -xf "$3"
+}
+
+extractPackageGZIP() {
+# $1=package_name  $2=dest_dir  $3=rar_name  $4=pw
+cd $2/$1
+tar -xzf "$3"
+}
+
+
