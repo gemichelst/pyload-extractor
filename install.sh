@@ -6,7 +6,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-CONFIG_FILE="./pyload-tools-config-cfg"
+CONFIG_FILE="./pyload-tools-config.cfg"
 source $CONFIG_FILE
 if [ $? = 0 ]
 then
