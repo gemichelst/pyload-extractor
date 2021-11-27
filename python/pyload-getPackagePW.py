@@ -2,7 +2,7 @@ from module.remote.thriftbackend.ThriftClient import ThriftClient, WrongLogin
 import sys
 
 try:
-    client = ThriftClient(host="127.0.0.1", port=7227, user="api", password="corenftpx1")
+    client = ThriftClient(host="127.0.0.1", port=7227, user="api", password="XXX")
 except:
     print "Login was wrong"
     exit()
